@@ -1,0 +1,19 @@
+{
+  "name": "vuepressBlog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Bo Han",
+    "email": "hanbo386@gmail.com"
+  },
+  "repository": "https://github.com/hanbo386/vuepressBlog/vuepressBlog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
