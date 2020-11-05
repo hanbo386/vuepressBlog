@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "authors": {
-    "name": "Bo Han",
-    "email": "hanbo386@gmail.com"
+    "name": "",
+    "email": ""
   },
-  "repository": "https://github.com/hanbo386/vuepressBlog/vuepressBlog",
+  "repository": "/vuepressBlog",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "deploy": ".\\deploy.sh"
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
