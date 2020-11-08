@@ -56,8 +56,8 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Group 1',   // required
-        path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+        title: '计算机基础',   // required
+        path: '/computerBasic/',      // optional, link of the title, which should be an absolute path and must exist
         collapsable: false, // optional, defaults to true
         sidebarDepth: 1,    // optional, defaults to 1
         children: [
@@ -65,7 +65,12 @@ module.exports = {
         ]
       },
       {
-        title: 'Group 2',
+        title: '.NET开发',
+        children: [ /* ... */ ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      },
+      {
+        title: '前端开发',
         children: [ /* ... */ ],
         initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       }
